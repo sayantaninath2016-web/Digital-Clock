@@ -1,0 +1,84 @@
+
+.logo{
+    display: flex;
+    font-size: 50px;
+    font-family: cursive;
+    color: blue;
+    margin-left: 600px;
+}
+#shop{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 15px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: brown;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+button a{
+    color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item img{
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px grey;
+}
+button:hover{
+    background-color: pink;
+    color: white;
+    transition: 0.3s;
+}
+button a:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+    padding: 5px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    font-size: 17.5px;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.3em;
+    margin: auto;
+    position: absolute;
+}
